@@ -1,0 +1,27 @@
+;;; 
+Export: Release 21.0.0.0.0 - Production on Mié Jun 3 11:40:04 2026
+Version 21.3.0.0.0
+
+Copyright (c) 1982, 2021, Oracle and/or its affiliates.  All rights reserved.
+;;; 
+Conectado a: Oracle Database 21c Express Edition Release 21.0.0.0.0 - Production
+Iniciando "USUARIO_ILE"."SYS_EXPORT_TABLE_01":  usuario_ile/********@172.18.130.102:1521/XEPDB1 directory=dir_respaldos dumpfile=respaldo_ile_tablas.dmp logfile=log_respaldo.log tables=CLIENTE,PROVEEDOR,MATERIA_PRIMA,PRODUCTO,VENTA,COMPRA 
+Procesando el tipo de objeto TABLE_EXPORT/TABLE/TABLE_DATA
+Procesando el tipo de objeto TABLE_EXPORT/TABLE/INDEX/STATISTICS/INDEX_STATISTICS
+Procesando el tipo de objeto TABLE_EXPORT/TABLE/STATISTICS/TABLE_STATISTICS
+Procesando el tipo de objeto TABLE_EXPORT/TABLE/STATISTICS/MARKER
+Procesando el tipo de objeto TABLE_EXPORT/TABLE/TABLE
+Procesando el tipo de objeto TABLE_EXPORT/TABLE/INDEX/INDEX
+Procesando el tipo de objeto TABLE_EXPORT/TABLE/CONSTRAINT/CONSTRAINT
+Procesando el tipo de objeto TABLE_EXPORT/TABLE/CONSTRAINT/REF_CONSTRAINT
+. . "USUARIO_ILE"."CLIENTE"                     14.07 KB     100 filas exportadas
+. . "USUARIO_ILE"."COMPRA"                      13.61 KB     300 filas exportadas
+. . "USUARIO_ILE"."MATERIA_PRIMA"               6.898 KB      10 filas exportadas
+. . "USUARIO_ILE"."PRODUCTO"                    10.28 KB      40 filas exportadas
+. . "USUARIO_ILE"."PROVEEDOR"                   6.718 KB       5 filas exportadas
+. . "USUARIO_ILE"."VENTA"                       62.18 KB    2500 filas exportadas
+La tabla maestra "USUARIO_ILE"."SYS_EXPORT_TABLE_01" se ha cargado/descargado correctamente
+******************************************************************************
+El juego de archivos de volcado para USUARIO_ILE.SYS_EXPORT_TABLE_01 es:
+  C:\RESPALDOS\RESPALDO_ILE_TABLAS.DMP
+El trabajo "USUARIO_ILE"."SYS_EXPORT_TABLE_01" ha terminado correctamente en Mié Jun 3 11:40:27 2026 elapsed 0 00:00:19
